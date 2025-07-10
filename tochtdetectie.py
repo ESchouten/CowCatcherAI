@@ -35,7 +35,7 @@ import config  # Importeer het configuratiebestand
 from collections import deque
 
 # Configuratie voor live scherm weergave
-TOON_LIVE_FEED = True  # Zet op True om live scherm te tonen, False om uit te schakelen
+TOON_LIVE_FEED = False  # Zet op True om live scherm te tonen, False om uit te schakelen
 VERSTUUR_GEANNOTEERDE_AFBEELDINGEN = True  # Zet op True om geannoteerde afbeeldingen te versturen, False voor originele afbeeldingen
 
 print("Script gestart. YOLO model laden...")
@@ -129,7 +129,7 @@ else:
 
 # Constanten voor detectie
 OPSLAG_DREMPELWAARDE = 0.7      # Drempelwaarde voor opslaan van afbeeldingen
-MELDING_DREMPELWAARDE = 0.84    # Drempelwaarde voor versturen van meldingen
+MELDING_DREMPELWAARDE = 0.85    # Drempelwaarde voor versturen van meldingen
 PIEK_DETECTIE_DREMPELWAARDE = 0.89  # Drempelwaarde voor piek detectie
 MAX_SCREENSHOTS = 2             # Aantal screenshots om per gebeurtenis te versturen
 VERZAMEL_TIJD = 50              # Maximale tijd om screenshots te verzamelen in seconden
