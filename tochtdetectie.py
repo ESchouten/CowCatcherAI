@@ -170,7 +170,7 @@ print(f"Telegram afbeeldingen: {'Met begrenzingsboxen' if VERSTUUR_GEANNOTEERDE_
 print(f"Geluidsmelding elke {GELUID_ELKE_N_MELDINGEN} waarschuwingen")
 
 # Verstuur een start bericht om te bevestigen dat alles werkt
-start_bericht = f"📋 Cowcatcher detectie script gestart op {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n⚠️ DISCLAIMER: Gebruik op eigen risico. Dit programma gebruikt Ultralytics YOLO en valt onder de GNU Affero General Public License v3.0 (AGPL-3.0). De complete broncode is beschikbaar op https://github.com/CowCatcherAI/CowCatcherAI."
+start_bericht = f"📋 Cowcatcher detectie script gestart op {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n⚠️ DISCLAIMER: Gebruik op eigen risico. Dit programma gebruikt Ultralytics YOLO en valt onder de GNU Affero General Public License v3.0 (AGPL-3.0)."
 verstuur_telegram_bericht(start_bericht)
 
 def detecteer_dekking_piek(vertrouwen_geschiedenis, frame_geschiedenis, tijdstempel_geschiedenis):
