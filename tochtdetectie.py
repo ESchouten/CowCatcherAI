@@ -418,7 +418,7 @@ try:
                                 bericht = f"{geluid_indicator} Dekking gedetecteerd ({ts}) - Vertrouwen: {vertr:.2f}\n"
                                 bericht += f"Stadium: {stadium} - Rang {rang+1}/{len(geselecteerde_indices)}\n"
                                 bericht += f"Gebeurtenis duur: {verzamel_duur:.1f}s\n"
-                                bericht += f"Waarschuwing #{melding_teller} (Geluid: {'AAN' if speel_geluid else 'UIT'})"
+                                
                                 
                                 # NIEUW: Verstuur naar Telegram (geluid uit behalve voor elke 5e melding)
                                 response = verstuur_telegram_foto(verstuur_pad, bericht, schakel_notificatie_uit=not speel_geluid)
