@@ -38,11 +38,12 @@ CowCatcher AI is een open-source systeem dat kunstmatige intelligentie gebruikt 
 1. Download en installeer [Anaconda](https://www.anaconda.com/products/distribution)
 2. Download en installeer [Sublime Text](https://www.sublimetext.com/) (optioneel)
 3. Download en installeer [WinRAR](https://www.win-rar.com/) of 7-Zip
-4. Download het CowCatcher AI zip-bestand van de github latest release
-
+4. Download de latest release van [CowcatcherAI](https://github.com/CowCatcherAI/CowCatcherAI/releases)
+5. Voor de Nederlandse versie downloadt u de bestanden tochtdetectie.py en config.py uit de Nederlandse branch.
+   
 ### Stap 2: Project Voorbereiden
 1. Extract het zip-bestand naar een map naar keuze (bijv. `C:/tochtdetectie`)
-2. Onthoud het pad naar deze map
+2. Onthoud het pad naar deze map, hier moet je constant naar verwijzen
 
 ### Stap 3: Python Omgeving Opzetten
 
@@ -72,7 +73,7 @@ conda activate tochtdetectie
 pip install ultralytics
 
 # Installeer PyTorch met CUDA ondersteuning
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
 
 ### Stap 5: GPU Ondersteuning Controleren
@@ -170,6 +171,9 @@ Dit is een open source project. Je mag het aanpassen en verbeteren naar eigen in
 Voor vragen of ondersteuning, neem contact op via de project repository of community kanalen.
 
 ---
-## ⚠️ Disclaimer
+⚠️ Disclaimer
 
-**Gebruik op eigen risico.** Dit programma is een hulpmiddel en geen vervanger van je eigen vakkennis. De AI kan vals alarm geven - jij blijft verantwoordelijk voor de uiteindelijke beslissing. Fysieke controle en identificatie van het dier blijven essentieel. Deze software is wat het is. 
+Gebruik op eigen risico.
+Deze software is bedoeld als hulpmiddel en vormt geen vervanging voor professionele kennis en ervaring. De AI kan foutieve meldingen geven; de gebruiker blijft zelf verantwoordelijk voor de uiteindelijke beoordeling en beslissing. Fysieke controle en identificatie van het dier blijven onmisbaar.
+
+Hoewel deze oplossing gebruiksvriendelijk en efficiënt is vormgegeven, is de onderliggende technologie niet nieuw. De gebruikte computervisie is gebaseerd op YOLO, een beproefde techniek die al jarenlang wordt toegepast voor object- en bewegingsdetectie. Ook de Telegram-notificaties maken gebruik van een bestaande API. Ondanks dat het vernieuwend kan lijken, betreft het een slimme combinatie van bestaande technologieën.
