@@ -146,6 +146,8 @@ Het systeem heeft verschillende aanpasbare drempelwaarden:
 
 ```
 tochtdetectie/
+├── README.md
+├── LICENSE
 ├── CowcatcherV13.pt          # AI model bestand
 ├── tochtdetectiebot.py       # Hoofdprogramma
 ├── config.py                 # Configuratie bestand
