@@ -6,7 +6,8 @@ Een automatisch "tochtdetectiesysteem" dat 24/7 koeien monitort en direct meldin
 
 CowCatcher AI is een open-source systeem dat kunstmatige intelligentie gebruikt om automatisch te herkennen wanneer een koe tochtig gedrag vertoont (springen op andere koeien). Het systeem analyseert live camerabeelden en stuurt direct foto's met meldingen naar je telefoon via Telegram.
 
-<img width="1280" height="720" alt="2025-07-20 13-06-58-f000087" src="https://github.com/user-attachments/assets/b4bff37a-ef48-4972-915c-ddfe5b336cd6" />
+![readme file afbeelding](https://github.com/user-attachments/assets/3139e8d8-efc5-46ad-90b9-eda2f80b9856)
+
 
 📷 stal camera beelden ──→ 🤖 AI Computer Visie ──→ ⚡ detectie *springen* ──→ 💽 opslaan afbeelding ──→ 📲 Telegram notificatie met afbeelding
 
